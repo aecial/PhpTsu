@@ -12,9 +12,9 @@
     <button type="submit">Submit</button>
     </form>
     <?php
-        if($_SERVER["REQUEST_METHOD"] == "POST") {
+        if($_SERVER["REQUEST_METHOD"] == "post") {
             $name = $_POST["text"];
-            echo "<h1>$name</h1>";
+            echo "<h1>POST $name</h1>";
         } else {
             $name = $_GET["text"];
             echo "<h2>GET $name</h2>";
