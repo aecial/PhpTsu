@@ -1,9 +1,9 @@
 <?php
 
-$host = 'localhost';
-$user = 'root';
-$password = '';
-$database = 'labExamRev';
+$host = 'localhost'; // localhost or 127.0.0.1 pag ayaw gumana
+$user = 'root'; // usually root to lagi
+$password = ''; // database password, usually wala
+$database = 'labExamRev'; // database name
 $conn = '';
 
 try {
